@@ -45,7 +45,7 @@ while value <= amount:
 else:
     sslooww(f'\n {Colors.light_green} The codes provided are {Colors.light_blue}UNCHECKED{Colors.light_green} therefore you should check them\n')
     sleep(2)
-    input(f'\n {Colors.white} [{Colors.yellow}!{Colors.white}]{Colors.white} Presiona 3 veces {Colors.red}Enter{Colors.white} para salir.{Colors.white}')
+    input(f'\n {Colors.white} [{Colors.yellow}!{Colors.white}]{Colors.white} Press 3 times {Colors.red}Enter{Colors.white} to exit.{Colors.white}')
     input(f' {Colors.red} 1{Colors.white}')
     input(f' {Colors.red} 2{Colors.white}')
     os.system("cls")
