@@ -1,2 +1,1 @@
-# Zxrus.Nitro.Generator
-Un simple generador de nitro
+Credits to: [billythegoat356](https://github.com/billythegoat356) - pystyle
