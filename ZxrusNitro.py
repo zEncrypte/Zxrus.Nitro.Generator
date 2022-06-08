@@ -32,7 +32,7 @@ def sslooww(_str):
     for letter in _str:
         sys.stdout.write(letter);sys.stdout.flush();sleep(0.03)
 
-amount = int(input(f'\n{Colors.cyan} ¿Cuantos codigos de nitro deseas generar?: {Colors.white}'))
+amount = int(input(f'\n{Colors.cyan} ¿How many nitro codes do you want to generate?: {Colors.white}'))
 value = 1
 while value <= amount:
     code = "https://discord.gift/" + ('').join(random.choices(string.ascii_letters + string.digits, k=16))
@@ -43,7 +43,7 @@ while value <= amount:
     value += 1
 
 else:
-    sslooww(f'\n {Colors.light_green} Los codigos entregados son {Colors.light_blue}UNCHECKED{Colors.light_green} por lo tanto no estan checkeados.\n')
+    sslooww(f'\n {Colors.light_green} The codes provided are {Colors.light_blue}UNCHECKED{Colors.light_green} therefore you should check them\n')
     sleep(2)
     input(f'\n {Colors.white} [{Colors.yellow}!{Colors.white}]{Colors.white} Presiona 3 veces {Colors.red}Enter{Colors.white} para salir.{Colors.white}')
     input(f' {Colors.red} 1{Colors.white}')
